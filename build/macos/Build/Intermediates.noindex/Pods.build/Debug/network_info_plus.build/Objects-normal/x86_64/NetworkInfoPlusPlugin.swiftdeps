@@ -1,0 +1,979 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "NetworkInfoPlusPlugin"
+- "withWifiInterface"
+provides-nominal:
+- "17network_info_plus21NetworkInfoPlusPluginC"
+provides-member:
+- ["17network_info_plus21NetworkInfoPlusPluginC", ""]
+provides-dynamic-lookup:
+- "cwinterface"
+- "getDefaultGateway"
+- "getWifiAddress"
+- "getWifiBroadcast"
+- "getWifiSubmask"
+- "handle"
+- "register"
+depends-top-level:
+- "!="
+- "&"
+- "&&"
+- "+"
+- "+="
+- !private "-"
+- "..<"
+- "<"
+- "<<"
+- "=="
+- !private ">"
+- "AF_INET"
+- !private "AF_INET6"
+- "AssignmentPrecedence"
+- "CChar"
+- "CLong"
+- !private "CTL_NET"
+- "CWInterface"
+- !private "CWWiFiClient"
+- !private "FloatLiteralType"
+- "FlutterMethodCall"
+- !private "FlutterMethodChannel"
+- !private "FlutterMethodNotImplemented"
+- "FlutterPlugin"
+- "FlutterPluginRegistrar"
+- "FlutterResult"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "MemoryLayout"
+- !private "NET_RT_FLAGS"
+- !private "NI_MAXHOST"
+- !private "NI_NUMERICHOST"
+- "NSObject"
+- "NetworkInfoPlusPlugin"
+- !private "PF_ROUTE"
+- "RTAX_DST"
+- "RTAX_GATEWAY"
+- "RTAX_MAX"
+- "RTA_DST"
+- "RTA_GATEWAY"
+- !private "RTF_GATEWAY"
+- "String"
+- !private "StringLiteralType"
+- "TernaryPrecedence"
+- "UInt32"
+- !private "UInt8"
+- "UnsafeMutablePointer"
+- "UnsafePointer"
+- "UnsafeRawPointer"
+- !private "cwinterface"
+- "descriptionForAddress"
+- !private "freeifaddrs"
+- !private "getDefaultGateway"
+- !private "getWifiAddress"
+- !private "getWifiBroadcast"
+- !private "getWifiSubmask"
+- !private "getifaddrs"
+- !private "getnameinfo"
+- "if_indextoname"
+- "ifaddrs"
+- "roundup"
+- "rt_msghdr"
+- !private "sequence"
+- "sockaddr"
+- !private "socklen_t"
+- !private "sysctl"
+- "withWifiInterface"
+- "|"
+- !private "~="
+depends-member:
+- !private ["s18AdditiveArithmeticP", ""]
+- !private ["s18AdditiveArithmeticP", "bindMemory"]
+- !private ["s18AdditiveArithmeticP", "init"]
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["Sa", "withUnsafeBytes"]
+- !private ["SK", ""]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["Sz", ""]
+- !private ["Sz", "bindMemory"]
+- !private ["Sz", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "bindMemory"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "count"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "init"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "subscript"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "withUnsafeBytes"]
+- !private ["s7CVarArgP", "AF_INET"]
+- !private ["s7CVarArgP", "AF_INET6"]
+- !private ["s7CVarArgP", "CChar"]
+- !private ["s7CVarArgP", "CTL_NET"]
+- !private ["s7CVarArgP", "CWWiFiClient"]
+- !private ["s7CVarArgP", "FlutterMethodChannel"]
+- !private ["s7CVarArgP", "FlutterMethodNotImplemented"]
+- !private ["s7CVarArgP", "Int"]
+- !private ["s7CVarArgP", "MemoryLayout"]
+- !private ["s7CVarArgP", "NET_RT_FLAGS"]
+- !private ["s7CVarArgP", "NetworkInfoPlusPlugin"]
+- !private ["s7CVarArgP", "PF_ROUTE"]
+- !private ["s7CVarArgP", "RTAX_DST"]
+- !private ["s7CVarArgP", "RTAX_GATEWAY"]
+- !private ["s7CVarArgP", "RTAX_MAX"]
+- !private ["s7CVarArgP", "RTA_DST"]
+- !private ["s7CVarArgP", "RTA_GATEWAY"]
+- !private ["s7CVarArgP", "RTF_GATEWAY"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UInt32"]
+- !private ["s7CVarArgP", "UInt8"]
+- !private ["s7CVarArgP", "UnsafePointer"]
+- !private ["s7CVarArgP", "UnsafeRawPointer"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "bindMemory"]
+- !private ["s7CVarArgP", "bssid"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "cwinterface"]
+- !private ["s7CVarArgP", "descriptionForAddress"]
+- !private ["s7CVarArgP", "getDefaultGateway"]
+- !private ["s7CVarArgP", "getWifiAddress"]
+- !private ["s7CVarArgP", "getWifiBroadcast"]
+- !private ["s7CVarArgP", "getWifiSubmask"]
+- ["s7CVarArgP", "handle"]
+- ["s7CVarArgP", "handleMethodCall"]
+- !private ["s7CVarArgP", "if_indextoname"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "interface"]
+- !private ["s7CVarArgP", "method"]
+- !private ["s7CVarArgP", "pointee"]
+- ["s7CVarArgP", "register"]
+- ["s7CVarArgP", "registerWithRegistrar"]
+- !private ["s7CVarArgP", "roundup"]
+- !private ["s7CVarArgP", "rt_msghdr"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "sockaddr"]
+- !private ["s7CVarArgP", "ssid"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "sysctl"]
+- !private ["s7CVarArgP", "withUnsafeBytes"]
+- !private ["s7CVarArgP", "withWifiInterface"]
+- !private ["So11CWInterfaceC", "bssid"]
+- !private ["So11CWInterfaceC", "ssid"]
+- !private ["So12CWWiFiClientC", "interface"]
+- !private ["So12CWWiFiClientC", "shared"]
+- !private ["Sl", ""]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["SL", ""]
+- !private ["SL", "bindMemory"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["10Foundation15ContiguousBytesP", "baseAddress"]
+- !private ["10Foundation15ContiguousBytesP", "count"]
+- !private ["10Foundation15ContiguousBytesP", "init"]
+- !private ["10Foundation15ContiguousBytesP", "subscript"]
+- !private ["10Foundation15ContiguousBytesP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "AF_INET"]
+- !private ["s28CustomDebugStringConvertibleP", "AF_INET6"]
+- !private ["s28CustomDebugStringConvertibleP", "CChar"]
+- !private ["s28CustomDebugStringConvertibleP", "CTL_NET"]
+- !private ["s28CustomDebugStringConvertibleP", "CWWiFiClient"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s28CustomDebugStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s28CustomDebugStringConvertibleP", "Int"]
+- !private ["s28CustomDebugStringConvertibleP", "MemoryLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "NET_RT_FLAGS"]
+- !private ["s28CustomDebugStringConvertibleP", "NetworkInfoPlusPlugin"]
+- !private ["s28CustomDebugStringConvertibleP", "PF_ROUTE"]
+- !private ["s28CustomDebugStringConvertibleP", "RTAX_DST"]
+- !private ["s28CustomDebugStringConvertibleP", "RTAX_GATEWAY"]
+- !private ["s28CustomDebugStringConvertibleP", "RTAX_MAX"]
+- !private ["s28CustomDebugStringConvertibleP", "RTA_DST"]
+- !private ["s28CustomDebugStringConvertibleP", "RTA_GATEWAY"]
+- !private ["s28CustomDebugStringConvertibleP", "RTF_GATEWAY"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt32"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeRawPointer"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "bindMemory"]
+- !private ["s28CustomDebugStringConvertibleP", "bssid"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "cwinterface"]
+- !private ["s28CustomDebugStringConvertibleP", "descriptionForAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "getDefaultGateway"]
+- !private ["s28CustomDebugStringConvertibleP", "getWifiAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "getWifiBroadcast"]
+- !private ["s28CustomDebugStringConvertibleP", "getWifiSubmask"]
+- ["s28CustomDebugStringConvertibleP", "handle"]
+- ["s28CustomDebugStringConvertibleP", "handleMethodCall"]
+- !private ["s28CustomDebugStringConvertibleP", "if_indextoname"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "interface"]
+- !private ["s28CustomDebugStringConvertibleP", "method"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- ["s28CustomDebugStringConvertibleP", "register"]
+- ["s28CustomDebugStringConvertibleP", "registerWithRegistrar"]
+- !private ["s28CustomDebugStringConvertibleP", "roundup"]
+- !private ["s28CustomDebugStringConvertibleP", "rt_msghdr"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "sockaddr"]
+- !private ["s28CustomDebugStringConvertibleP", "ssid"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "sysctl"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "withWifiInterface"]
+- !private ["s17CustomReflectableP", ""]
+- !private ["s17CustomReflectableP", "bindMemory"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "AF_INET"]
+- !private ["s23CustomStringConvertibleP", "AF_INET6"]
+- !private ["s23CustomStringConvertibleP", "CChar"]
+- !private ["s23CustomStringConvertibleP", "CTL_NET"]
+- !private ["s23CustomStringConvertibleP", "CWWiFiClient"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodChannel"]
+- !private ["s23CustomStringConvertibleP", "FlutterMethodNotImplemented"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "NET_RT_FLAGS"]
+- !private ["s23CustomStringConvertibleP", "NetworkInfoPlusPlugin"]
+- !private ["s23CustomStringConvertibleP", "PF_ROUTE"]
+- !private ["s23CustomStringConvertibleP", "RTAX_DST"]
+- !private ["s23CustomStringConvertibleP", "RTAX_GATEWAY"]
+- !private ["s23CustomStringConvertibleP", "RTAX_MAX"]
+- !private ["s23CustomStringConvertibleP", "RTA_DST"]
+- !private ["s23CustomStringConvertibleP", "RTA_GATEWAY"]
+- !private ["s23CustomStringConvertibleP", "RTF_GATEWAY"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UInt32"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UnsafePointer"]
+- !private ["s23CustomStringConvertibleP", "UnsafeRawPointer"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "bindMemory"]
+- !private ["s23CustomStringConvertibleP", "bssid"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "cwinterface"]
+- !private ["s23CustomStringConvertibleP", "descriptionForAddress"]
+- !private ["s23CustomStringConvertibleP", "getDefaultGateway"]
+- !private ["s23CustomStringConvertibleP", "getWifiAddress"]
+- !private ["s23CustomStringConvertibleP", "getWifiBroadcast"]
+- !private ["s23CustomStringConvertibleP", "getWifiSubmask"]
+- ["s23CustomStringConvertibleP", "handle"]
+- ["s23CustomStringConvertibleP", "handleMethodCall"]
+- !private ["s23CustomStringConvertibleP", "if_indextoname"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interface"]
+- !private ["s23CustomStringConvertibleP", "method"]
+- ["s23CustomStringConvertibleP", "register"]
+- ["s23CustomStringConvertibleP", "registerWithRegistrar"]
+- !private ["s23CustomStringConvertibleP", "roundup"]
+- !private ["s23CustomStringConvertibleP", "rt_msghdr"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "sockaddr"]
+- !private ["s23CustomStringConvertibleP", "ssid"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "sysctl"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "withWifiInterface"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "baseAddress"]
+- !private ["10Foundation12DataProtocolP", "count"]
+- !private ["10Foundation12DataProtocolP", "init"]
+- !private ["10Foundation12DataProtocolP", "subscript"]
+- !private ["10Foundation12DataProtocolP", "withUnsafeBytes"]
+- !private ["Se", "bindMemory"]
+- !private ["Se", "count"]
+- !private ["Se", "init"]
+- !private ["Se", "pointee"]
+- !private ["Se", "subscript"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["SE", "bindMemory"]
+- !private ["SE", "count"]
+- !private ["SE", "init"]
+- !private ["SE", "pointee"]
+- !private ["SE", "subscript"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["SQ", "AF_INET"]
+- !private ["SQ", "AF_INET6"]
+- !private ["SQ", "CChar"]
+- !private ["SQ", "CTL_NET"]
+- !private ["SQ", "CWWiFiClient"]
+- !private ["SQ", "FlutterMethodChannel"]
+- !private ["SQ", "FlutterMethodNotImplemented"]
+- !private ["SQ", "Int"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "NET_RT_FLAGS"]
+- !private ["SQ", "NetworkInfoPlusPlugin"]
+- !private ["SQ", "PF_ROUTE"]
+- !private ["SQ", "RTAX_DST"]
+- !private ["SQ", "RTAX_GATEWAY"]
+- !private ["SQ", "RTAX_MAX"]
+- !private ["SQ", "RTA_DST"]
+- !private ["SQ", "RTA_GATEWAY"]
+- !private ["SQ", "RTF_GATEWAY"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UInt32"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "UnsafePointer"]
+- !private ["SQ", "UnsafeRawPointer"]
+- ["SQ", ""]
+- !private ["SQ", "bindMemory"]
+- !private ["SQ", "bssid"]
+- !private ["SQ", "count"]
+- !private ["SQ", "cwinterface"]
+- !private ["SQ", "descriptionForAddress"]
+- !private ["SQ", "getDefaultGateway"]
+- !private ["SQ", "getWifiAddress"]
+- !private ["SQ", "getWifiBroadcast"]
+- !private ["SQ", "getWifiSubmask"]
+- ["SQ", "handle"]
+- ["SQ", "handleMethodCall"]
+- !private ["SQ", "if_indextoname"]
+- !private ["SQ", "init"]
+- !private ["SQ", "interface"]
+- !private ["SQ", "method"]
+- !private ["SQ", "pointee"]
+- ["SQ", "register"]
+- ["SQ", "registerWithRegistrar"]
+- !private ["SQ", "roundup"]
+- !private ["SQ", "rt_msghdr"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "sockaddr"]
+- !private ["SQ", "ssid"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "sysctl"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["SQ", "withWifiInterface"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBytes"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", ""]
+- !private ["s27ExpressibleByIntegerLiteralP", "bindMemory"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "bindMemory"]
+- !private ["s23ExpressibleByNilLiteralP", "pointee"]
+- !private ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", ""]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "bindMemory"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["So17FlutterMethodCallC", "method"]
+- !private ["So20FlutterMethodChannelC", "init"]
+- !private ["So13FlutterPluginP", "AF_INET"]
+- !private ["So13FlutterPluginP", "AF_INET6"]
+- !private ["So13FlutterPluginP", "CChar"]
+- !private ["So13FlutterPluginP", "CTL_NET"]
+- !private ["So13FlutterPluginP", "CWWiFiClient"]
+- !private ["So13FlutterPluginP", "FlutterMethodChannel"]
+- !private ["So13FlutterPluginP", "FlutterMethodNotImplemented"]
+- !private ["So13FlutterPluginP", "Int"]
+- !private ["So13FlutterPluginP", "MemoryLayout"]
+- !private ["So13FlutterPluginP", "NET_RT_FLAGS"]
+- !private ["So13FlutterPluginP", "NetworkInfoPlusPlugin"]
+- !private ["So13FlutterPluginP", "PF_ROUTE"]
+- !private ["So13FlutterPluginP", "RTAX_DST"]
+- !private ["So13FlutterPluginP", "RTAX_GATEWAY"]
+- !private ["So13FlutterPluginP", "RTAX_MAX"]
+- !private ["So13FlutterPluginP", "RTA_DST"]
+- !private ["So13FlutterPluginP", "RTA_GATEWAY"]
+- !private ["So13FlutterPluginP", "RTF_GATEWAY"]
+- !private ["So13FlutterPluginP", "String"]
+- !private ["So13FlutterPluginP", "UInt32"]
+- !private ["So13FlutterPluginP", "UInt8"]
+- !private ["So13FlutterPluginP", "UnsafePointer"]
+- !private ["So13FlutterPluginP", "UnsafeRawPointer"]
+- ["So13FlutterPluginP", ""]
+- ["So13FlutterPluginP", "cwinterface"]
+- ["So13FlutterPluginP", "deinit"]
+- !private ["So13FlutterPluginP", "descriptionForAddress"]
+- ["So13FlutterPluginP", "getDefaultGateway"]
+- ["So13FlutterPluginP", "getWifiAddress"]
+- ["So13FlutterPluginP", "getWifiBroadcast"]
+- ["So13FlutterPluginP", "getWifiSubmask"]
+- ["So13FlutterPluginP", "handle"]
+- ["So13FlutterPluginP", "handleMethodCall"]
+- !private ["So13FlutterPluginP", "if_indextoname"]
+- ["So13FlutterPluginP", "init"]
+- ["So13FlutterPluginP", "register"]
+- ["So13FlutterPluginP", "registerWithRegistrar"]
+- !private ["So13FlutterPluginP", "roundup"]
+- !private ["So13FlutterPluginP", "rt_msghdr"]
+- !private ["So13FlutterPluginP", "sockaddr"]
+- !private ["So13FlutterPluginP", "sysctl"]
+- !private ["So13FlutterPluginP", "withWifiInterface"]
+- !private ["So22FlutterPluginRegistrarP", "addMethodCallDelegate"]
+- !private ["So22FlutterPluginRegistrarP", "messenger"]
+- !private ["SH", "AF_INET"]
+- !private ["SH", "AF_INET6"]
+- !private ["SH", "CChar"]
+- !private ["SH", "CTL_NET"]
+- !private ["SH", "CWWiFiClient"]
+- !private ["SH", "FlutterMethodChannel"]
+- !private ["SH", "FlutterMethodNotImplemented"]
+- !private ["SH", "Int"]
+- !private ["SH", "MemoryLayout"]
+- !private ["SH", "NET_RT_FLAGS"]
+- !private ["SH", "NetworkInfoPlusPlugin"]
+- !private ["SH", "PF_ROUTE"]
+- !private ["SH", "RTAX_DST"]
+- !private ["SH", "RTAX_GATEWAY"]
+- !private ["SH", "RTAX_MAX"]
+- !private ["SH", "RTA_DST"]
+- !private ["SH", "RTA_GATEWAY"]
+- !private ["SH", "RTF_GATEWAY"]
+- !private ["SH", "String"]
+- !private ["SH", "UInt32"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "UnsafePointer"]
+- !private ["SH", "UnsafeRawPointer"]
+- ["SH", ""]
+- !private ["SH", "bindMemory"]
+- !private ["SH", "bssid"]
+- !private ["SH", "count"]
+- !private ["SH", "cwinterface"]
+- !private ["SH", "descriptionForAddress"]
+- !private ["SH", "getDefaultGateway"]
+- !private ["SH", "getWifiAddress"]
+- !private ["SH", "getWifiBroadcast"]
+- !private ["SH", "getWifiSubmask"]
+- ["SH", "handle"]
+- ["SH", "handleMethodCall"]
+- !private ["SH", "if_indextoname"]
+- !private ["SH", "init"]
+- !private ["SH", "interface"]
+- !private ["SH", "method"]
+- !private ["SH", "pointee"]
+- ["SH", "register"]
+- ["SH", "registerWithRegistrar"]
+- !private ["SH", "roundup"]
+- !private ["SH", "rt_msghdr"]
+- !private ["SH", "shared"]
+- !private ["SH", "sockaddr"]
+- !private ["SH", "ssid"]
+- !private ["SH", "subscript"]
+- !private ["SH", "sysctl"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["SH", "withWifiInterface"]
+- !private ["Si", "bindMemory"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", ""]
+- !private ["s25LosslessStringConvertibleP", "bindMemory"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["s10MirrorPathP", "bindMemory"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", ""]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["10Foundation19MutableDataProtocolP", "count"]
+- !private ["10Foundation19MutableDataProtocolP", "init"]
+- !private ["10Foundation19MutableDataProtocolP", "subscript"]
+- !private ["10Foundation19MutableDataProtocolP", "withUnsafeBytes"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSObjectC", "AF_INET"]
+- !private ["So8NSObjectC", "AF_INET6"]
+- !private ["So8NSObjectC", "CChar"]
+- !private ["So8NSObjectC", "CTL_NET"]
+- ["So8NSObjectC", "CWInterface"]
+- !private ["So8NSObjectC", "CWWiFiClient"]
+- ["So8NSObjectC", "FlutterMethodCall"]
+- !private ["So8NSObjectC", "FlutterMethodChannel"]
+- !private ["So8NSObjectC", "FlutterMethodNotImplemented"]
+- ["So8NSObjectC", "FlutterPluginRegistrar"]
+- ["So8NSObjectC", "FlutterResult"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Int32"]
+- !private ["So8NSObjectC", "MemoryLayout"]
+- !private ["So8NSObjectC", "NET_RT_FLAGS"]
+- !private ["So8NSObjectC", "NetworkInfoPlusPlugin"]
+- !private ["So8NSObjectC", "PF_ROUTE"]
+- !private ["So8NSObjectC", "RTAX_DST"]
+- !private ["So8NSObjectC", "RTAX_GATEWAY"]
+- !private ["So8NSObjectC", "RTAX_MAX"]
+- !private ["So8NSObjectC", "RTA_DST"]
+- !private ["So8NSObjectC", "RTA_GATEWAY"]
+- !private ["So8NSObjectC", "RTF_GATEWAY"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UInt32"]
+- !private ["So8NSObjectC", "UInt8"]
+- !private ["So8NSObjectC", "UnsafePointer"]
+- !private ["So8NSObjectC", "UnsafeRawPointer"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bssid"]
+- ["So8NSObjectC", "cwinterface"]
+- !private ["So8NSObjectC", "descriptionForAddress"]
+- ["So8NSObjectC", "getDefaultGateway"]
+- ["So8NSObjectC", "getWifiAddress"]
+- ["So8NSObjectC", "getWifiBroadcast"]
+- ["So8NSObjectC", "getWifiSubmask"]
+- ["So8NSObjectC", "handle"]
+- ["So8NSObjectC", "handleMethodCall"]
+- !private ["So8NSObjectC", "if_indextoname"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "interface"]
+- !private ["So8NSObjectC", "interfaceWithName"]
+- !private ["So8NSObjectC", "method"]
+- !private ["So8NSObjectC", "methodChannelWithName"]
+- ["So8NSObjectC", "register"]
+- ["So8NSObjectC", "registerWithRegistrar"]
+- !private ["So8NSObjectC", "roundup"]
+- !private ["So8NSObjectC", "rt_msghdr"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "sharedWiFiClient"]
+- !private ["So8NSObjectC", "sockaddr"]
+- !private ["So8NSObjectC", "ssid"]
+- !private ["So8NSObjectC", "sysctl"]
+- !private ["So8NSObjectC", "withWifiInterface"]
+- !private ["So8NSObjectP", "AF_INET"]
+- !private ["So8NSObjectP", "AF_INET6"]
+- !private ["So8NSObjectP", "CChar"]
+- !private ["So8NSObjectP", "CTL_NET"]
+- ["So8NSObjectP", "CWInterface"]
+- !private ["So8NSObjectP", "CWWiFiClient"]
+- ["So8NSObjectP", "FlutterMethodCall"]
+- !private ["So8NSObjectP", "FlutterMethodChannel"]
+- !private ["So8NSObjectP", "FlutterMethodNotImplemented"]
+- ["So8NSObjectP", "FlutterPluginRegistrar"]
+- ["So8NSObjectP", "FlutterResult"]
+- !private ["So8NSObjectP", "Int"]
+- ["So8NSObjectP", "Int32"]
+- !private ["So8NSObjectP", "MemoryLayout"]
+- !private ["So8NSObjectP", "NET_RT_FLAGS"]
+- !private ["So8NSObjectP", "NetworkInfoPlusPlugin"]
+- !private ["So8NSObjectP", "PF_ROUTE"]
+- !private ["So8NSObjectP", "RTAX_DST"]
+- !private ["So8NSObjectP", "RTAX_GATEWAY"]
+- !private ["So8NSObjectP", "RTAX_MAX"]
+- !private ["So8NSObjectP", "RTA_DST"]
+- !private ["So8NSObjectP", "RTA_GATEWAY"]
+- !private ["So8NSObjectP", "RTF_GATEWAY"]
+- ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UInt32"]
+- !private ["So8NSObjectP", "UInt8"]
+- !private ["So8NSObjectP", "UnsafePointer"]
+- !private ["So8NSObjectP", "UnsafeRawPointer"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addMethodCallDelegate"]
+- !private ["So8NSObjectP", "bssid"]
+- ["So8NSObjectP", "cwinterface"]
+- ["So8NSObjectP", "deinit"]
+- !private ["So8NSObjectP", "descriptionForAddress"]
+- ["So8NSObjectP", "getDefaultGateway"]
+- ["So8NSObjectP", "getWifiAddress"]
+- ["So8NSObjectP", "getWifiBroadcast"]
+- ["So8NSObjectP", "getWifiSubmask"]
+- ["So8NSObjectP", "handle"]
+- ["So8NSObjectP", "handleMethodCall"]
+- !private ["So8NSObjectP", "if_indextoname"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "interface"]
+- !private ["So8NSObjectP", "interfaceWithName"]
+- !private ["So8NSObjectP", "messenger"]
+- !private ["So8NSObjectP", "method"]
+- !private ["So8NSObjectP", "methodChannelWithName"]
+- ["So8NSObjectP", "register"]
+- ["So8NSObjectP", "registerWithRegistrar"]
+- !private ["So8NSObjectP", "roundup"]
+- !private ["So8NSObjectP", "rt_msghdr"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "sharedWiFiClient"]
+- !private ["So8NSObjectP", "sockaddr"]
+- !private ["So8NSObjectP", "ssid"]
+- !private ["So8NSObjectP", "sysctl"]
+- !private ["So8NSObjectP", "withWifiInterface"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "AF_INET"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "AF_INET6"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "CChar"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "CTL_NET"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "CWInterface"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "CWWiFiClient"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "FlutterMethodCall"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "FlutterMethodChannel"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "FlutterMethodNotImplemented"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "FlutterPluginRegistrar"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "FlutterResult"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "Int"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "Int32"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "MemoryLayout"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "NET_RT_FLAGS"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "NetworkInfoPlusPlugin"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "PF_ROUTE"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "RTAX_DST"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "RTAX_GATEWAY"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "RTAX_MAX"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "RTA_DST"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "RTA_GATEWAY"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "RTF_GATEWAY"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "String"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "UInt32"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "UInt8"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "UnsafePointer"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "UnsafeRawPointer"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", ""]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "cwinterface"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "deinit"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "descriptionForAddress"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "getDefaultGateway"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "getWifiAddress"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "getWifiBroadcast"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "getWifiSubmask"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "handle"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "handleMethodCall"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "if_indextoname"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "init"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "register"]
+- ["17network_info_plus21NetworkInfoPlusPluginC", "registerWithRegistrar"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "roundup"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "rt_msghdr"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "sockaddr"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "sysctl"]
+- !private ["17network_info_plus21NetworkInfoPlusPluginC", "withWifiInterface"]
+- !private ["Sj", ""]
+- !private ["Sj", "bindMemory"]
+- !private ["Sj", "init"]
+- !private ["Sq", "bindMemory"]
+- !private ["Sq", "pointee"]
+- !private ["Sk", ""]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sm", ""]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["s10SIMDScalarP", "bindMemory"]
+- !private ["s10SIMDScalarP", "init"]
+- !private ["ST", "Element"]
+- !private ["ST", "Iterator"]
+- !private ["ST", ""]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "subscript"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["SZ", "bindMemory"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", ""]
+- !private ["s13SignedNumericP", "bindMemory"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", ""]
+- !private ["Sx", "bindMemory"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", ""]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- !private ["s5UInt8V", "init"]
+- !private ["Sp", "pointee"]
+- !private ["SP", "pointee"]
+- !private ["SW", "baseAddress"]
+- !private ["SV", "bindMemory"]
+- !private ["SV", "init"]
+- !private ["SU", "init"]
+- !private ["s14_ArrayProtocolP", "count"]
+- !private ["s14_ArrayProtocolP", "init"]
+- !private ["s14_ArrayProtocolP", "subscript"]
+- !private ["s14_ArrayProtocolP", "withUnsafeBytes"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "bindMemory"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBytes"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bindMemory"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "baseAddress"]
+- !private ["s19_HasContiguousBytesP", "count"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- !private ["s19_HasContiguousBytesP", "withUnsafeBytes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bindMemory"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBytes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AF_INET"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AF_INET6"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CChar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CTL_NET"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CWWiFiClient"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodChannel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FlutterMethodNotImplemented"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MemoryLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NET_RT_FLAGS"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NetworkInfoPlusPlugin"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PF_ROUTE"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTAX_DST"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTAX_GATEWAY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTAX_MAX"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTA_DST"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTA_GATEWAY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "RTF_GATEWAY"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt32"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnsafePointer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnsafeRawPointer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bssid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cwinterface"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "descriptionForAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getDefaultGateway"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getWifiAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getWifiBroadcast"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getWifiSubmask"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "handleMethodCall"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "if_indextoname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "interface"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "method"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "register"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "registerWithRegistrar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "roundup"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rt_msghdr"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sockaddr"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ssid"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sysctl"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "withWifiInterface"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AF_INET"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "AF_INET6"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CChar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CTL_NET"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "CWWiFiClient"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterMethodChannel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FlutterMethodNotImplemented"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Int"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "MemoryLayout"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NET_RT_FLAGS"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NetworkInfoPlusPlugin"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "PF_ROUTE"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RTAX_DST"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RTAX_GATEWAY"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RTAX_MAX"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RTA_DST"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RTA_GATEWAY"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "RTF_GATEWAY"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "String"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UInt32"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UInt8"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UnsafePointer"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "UnsafeRawPointer"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bssid"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cwinterface"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "descriptionForAddress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getDefaultGateway"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getWifiAddress"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getWifiBroadcast"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "getWifiSubmask"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handleMethodCall"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "if_indextoname"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "interface"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "method"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "register"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "registerWithRegistrar"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "roundup"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "rt_msghdr"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sockaddr"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "ssid"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sysctl"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "withWifiInterface"]
+- !private ["s21_ObjectiveCBridgeableP", "bindMemory"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pointee"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s8_PointerP", "bindMemory"]
+- !private ["s8_PointerP", "init"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s14_StringElementP", "init"]
+- !private ["So7ifaddrsV", "ifa_addr"]
+- !private ["So7ifaddrsV", "ifa_dstaddr"]
+- !private ["So7ifaddrsV", "ifa_name"]
+- !private ["So7ifaddrsV", "ifa_netmask"]
+- !private ["So7ifaddrsV", "ifa_next"]
+- !private ["So9rt_msghdrV", "rtm_addrs"]
+- !private ["So9rt_msghdrV", "rtm_index"]
+- !private ["So9rt_msghdrV", "rtm_msglen"]
+- !private ["So8sockaddrV", "sa_family"]
+- !private ["So8sockaddrV", "sa_len"]
+depends-nominal:
+- !private "s18AdditiveArithmeticP"
+- !private "Sa"
+- !private "SK"
+- !private "Sz"
+- !private "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- !private "So11CWInterfaceC"
+- !private "So12CWWiFiClientC"
+- !private "Sl"
+- !private "SL"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s32ExpressibleByStringInterpolationP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "So17FlutterMethodCallC"
+- !private "So20FlutterMethodChannelC"
+- "So13FlutterPluginP"
+- !private "So22FlutterPluginRegistrarP"
+- "SH"
+- !private "Si"
+- !private "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "17network_info_plus21NetworkInfoPlusPluginC"
+- !private "Sj"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "s10SIMDScalarP"
+- !private "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- !private "s5UInt8V"
+- !private "Sp"
+- !private "SP"
+- !private "SW"
+- !private "SV"
+- !private "SU"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s14_StringElementP"
+- !private "So7ifaddrsV"
+- !private "So9rt_msghdrV"
+- !private "So8sockaddrV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreMedia.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreAudio.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginMacOS.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPluginRegistrarMacOS.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacOS.h"
+- "/Users/nugsoft/StudioProjects/poscreamDesktop/macos/Pods/Target Support Files/network_info_plus/network_info_plus-umbrella.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterEngine.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterTexture.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterAppDelegate.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterBinaryMessenger.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterViewController.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterCodecs.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterChannels.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterMacros.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterPlatformViews.h"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Headers/FlutterDartProject.h"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Users/nugsoft/StudioProjects/poscreamDesktop/build/macos/Build/Intermediates.noindex/Pods.build/Debug/network_info_plus.build/unextended-module.modulemap"
+- "/Users/nugsoft/flutter/bin/cache/artifacts/engine/darwin-x64/FlutterMacOS.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreWLAN.framework/Headers/CoreWLAN.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreMedia.framework/Headers/CoreMedia.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreAudioTypes.framework/Headers/CoreAudioTypes.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "24290efcf687bc289f913f348569d927"

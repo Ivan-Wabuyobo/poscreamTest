@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/nugsoft/StudioProjects/poscreamDesktop/build/macos/Build/Products/Debug/network_info_plus/network_info_plus.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/nugsoft/StudioProjects/poscreamDesktop/build/macos/Build/Intermediates.noindex/Pods.build/Debug/network_info_plus.build/unextended-module.modulemap",
+    }]
+  }]
+}

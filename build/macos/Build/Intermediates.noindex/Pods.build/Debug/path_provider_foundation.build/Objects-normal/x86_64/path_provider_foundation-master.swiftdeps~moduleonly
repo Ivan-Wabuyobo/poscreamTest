@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "cf7c1fa5c70847ee2ae598ea69d43227"
+build_time: [1688973970, 370802000]
+inputs:
+  "/Users/nugsoft/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.3/macos/Classes/messages.g.swift": [1684176998, 761449694]
+  "/Users/nugsoft/.pub-cache/hosted/pub.dev/path_provider_foundation-2.2.3/macos/Classes/PathProviderPlugin.swift": [1683901002, 816387131]

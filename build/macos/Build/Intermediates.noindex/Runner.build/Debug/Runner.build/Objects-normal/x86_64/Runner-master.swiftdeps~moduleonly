@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "0983a04d16e9707b8e7dd9290cfb4cf8"
+build_time: [1688974065, 111176000]
+inputs:
+  "/Users/nugsoft/StudioProjects/poscreamDesktop/macos/Runner/MainFlutterWindow.swift": [1684214496, 747094787]
+  "/Users/nugsoft/StudioProjects/poscreamDesktop/macos/Runner/AppDelegate.swift": [1684214496, 742721077]
+  "/Users/nugsoft/StudioProjects/poscreamDesktop/macos/Flutter/GeneratedPluginRegistrant.swift": [1688973917, 407951179]

@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "7d689a4cc395da5b22d22960a5c681be"
+build_time: [1688972642, 869211000]
+inputs:
+  "/Users/nugsoft/.pub-cache/hosted/pub.dev/network_info_plus-3.0.5/macos/Classes/NetworkInfoPlusPlugin.swift": [1683622928, 824505432]
